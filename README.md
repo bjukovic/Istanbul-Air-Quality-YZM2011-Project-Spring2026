@@ -16,15 +16,15 @@ The datasets were combined using a common date field to align daily weather cond
 
 ## Project Overview (P1, P2, P3)
 
-This project is part of a three-stage machine learning pipeline where the same real-world problem and dataset are used throughout:
+This project follows a three-stage machine learning pipeline using the same dataset and real-world problem: understanding and predicting air quality in Istanbul.
 
-- **P1 – Problem Formulation & Exploratory Data Analysis (Week 6):**  
-  Define the problem, clean and preprocess the data, and perform exploratory data analysis (EDA) to understand feature distributions and relationships.
+- **P1 – Problem Formulation & Exploratory Data Analysis (EDA):**  
+  In this stage, the weather and air quality datasets are merged, cleaned, and explored. The analysis focuses on understanding how environmental variables such as temperature, humidity, and wind relate to pollution levels. Key patterns, distributions, and data quality issues are identified.
 
-- **P2 – Regression Modeling (Week 10):**  
-  Apply regression techniques such as linear and polynomial regression, perform feature engineering, and evaluate model performance.
+- **P2 – Regression Modeling:**  
+  In the second stage, regression models are used to predict continuous pollution levels (e.g., PM2.5) based on weather and environmental features. This helps quantify how different factors influence air pollution.
 
-- **P3 – Classification & Model Evaluation (Week 15):**  
-  Build classification models to predict unhealthy air conditions, perform model selection, and evaluate results to improve performance.
+- **P3 – Classification & Model Evaluation:**  
+  In the final stage, classification models are developed to predict whether air quality is unhealthy. The focus is on identifying high-risk days and evaluating model performance using appropriate metrics.
 
-Together, these three deliverables form a complete machine learning workflow, from data understanding to modeling and evaluation on a real-world problem.
+Together, these stages form a complete workflow, moving from understanding the data to predicting pollution levels and finally classifying unhealthy air conditions.
