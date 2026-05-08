@@ -28,3 +28,10 @@ This project follows a three-stage machine learning pipeline using the same data
   In the final stage, classification models are developed to predict whether air quality is unhealthy. The focus is on identifying high-risk days and evaluating model performance using appropriate metrics.
 
 Together, these stages form a complete workflow, moving from understanding the data to predicting pollution levels and finally classifying unhealthy air conditions.
+
+## Summary of Findings in P2
+
+In Project 2, several regression models were developed to predict PM2.5 concentration levels in Istanbul using pollution and weather-related variables. Feature engineering techniques such as datetime decomposition, interaction terms, polynomial features, and log transforms were applied to improve model performance.
+
+The results showed that models using multiple features performed better than the baseline model, indicating that air quality is influenced by a combination of environmental factors. Regularization techniques also helped reduce overfitting, with Lasso regression achieving the best overall performance and generalization ability.
+
